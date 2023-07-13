@@ -4,10 +4,10 @@ public class Book {
     private int bookID;
     private String bookTitle;
     private String authorName;
-    private int bookVersion;
+    private String bookVersion;
     private boolean availabilityStatus;
 
-    public Book(int bookID, String bookTitle, String authorName, int bookVersion, boolean availabilityStatus) {
+    public Book(int bookID, String bookTitle, String authorName, String bookVersion, boolean availabilityStatus) {
         this.bookID = bookID;
         this.bookTitle = bookTitle;
         this.authorName = authorName;
@@ -39,11 +39,11 @@ public class Book {
         this.authorName = authorName;
     }
 
-    public int getBookVersion() {
+    public String getBookVersion() {
         return bookVersion;
     }
 
-    public void setBookVersion(int bookVersion) {
+    public void setBookVersion(String bookVersion) {
         this.bookVersion = bookVersion;
     }
 
