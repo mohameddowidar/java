@@ -1,0 +1,11 @@
+1- Test adding a book:
+      Scenario 1: Adding a book with all required fields with correct data.
+       Input:  Book{ID = 0123, title = 'JobHacker-System',  author = ’JOBHacker’,  version =    '1', isAvailable = true}
+
+    output: The JobHacker-System book is successfully added to the library.
+
+
+    Scenario 2: Adding a book with invalid data
+           Input: Book{ID = -555, title = 'JobHacker-System',  author = ’JOBHacker’,  version =   '1', isAvailable = true}
+        output: “Invalid Id, Please Enter valid data”
+
